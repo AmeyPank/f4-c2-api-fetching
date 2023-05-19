@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/f4-c2-api-fetching/static/css/main.549745ff.css",
+    "main.js": "/f4-c2-api-fetching/static/js/main.1740d25a.js",
+    "index.html": "/f4-c2-api-fetching/index.html",
+    "main.549745ff.css.map": "/f4-c2-api-fetching/static/css/main.549745ff.css.map",
+    "main.1740d25a.js.map": "/f4-c2-api-fetching/static/js/main.1740d25a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.549745ff.css",
+    "static/js/main.1740d25a.js"
+  ]
+}
