@@ -36,12 +36,14 @@ td{
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   body {
+    text-align: center;
     background-image: linear-gradient(to top left, #f00f16, #fad0c4);
   }
 }
 
 @media screen and (min-width: 1201px) {
   body {
+    text-align: center;
     background-image: linear-gradient(to top left, #e6dad1, #dc390b);
   }
 }
