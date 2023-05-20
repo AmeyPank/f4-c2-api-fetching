@@ -8,7 +8,7 @@ const TableRow = ({ data }) => {
   const { name, id, image, symbol, current_price, total_volume } = data;
 
   return (
-    <tr>
+    <tr >
       <td>{name}</td>
       <td>{id}</td>
       <td>

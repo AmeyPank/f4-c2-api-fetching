@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import TableRow from './TebleRow.js';
+import "./App.css"
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -11,14 +12,16 @@ const App = () => {
   }, []);
 
   const fetchData = () => {
-    fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false')
+    fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false', {
+      mode: 'cors',
+    })
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.log(error));
   };
 
   return (
-    <div>
+    <div id='container'>
       <h1>Top 10 Cryptocurrencies</h1>
       <table>
         <thead>
